@@ -1,0 +1,21 @@
+{
+  "name": "fisx-prepackager-babel",
+  "version": "0.1.0",
+  "description": "A prepacakger for fisx when using babel-plugin-external-helpers plugin",
+  "main": "index.js",
+  "keywords": ["fisx","fis3","fis","babel","prepackager"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuhy/fisx-prepackager-babel.git"
+  },
+  "bugs": {
+    "url": "http://github.com/wuhy/fisx-prepackager-babel/issues"
+  },
+  "author": "sparklewhy@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
