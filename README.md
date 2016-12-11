@@ -20,6 +20,8 @@ fis.match('::package', {
 });
 ```
 
+Add the `babelHelpers` module variable declaration in compiled babel file, use [fisx-preprocessor-babel](https://github.com/wuhy/fisx-preprocessor-babel) plugin.
+
 ### Options
 
 * babelHelperFileName - `string` `optional`: define the output babel helper file name, by default `src/babelHelpers.js`
