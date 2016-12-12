@@ -1,5 +1,7 @@
 fisx-prepackager-babel
 ======
+[![Dependency Status](https://david-dm.org/wuhy/fisx-prepackager-babel.svg)](https://david-dm.org/wuhy/fisx-prepackager-babel) [![devDependency Status](https://david-dm.org/wuhy/fisx-prepackager-babel/dev-status.svg)](https://david-dm.org/wuhy/fisx-prepackager-babel#info=devDependencies) [![NPM Version](https://img.shields.io/npm/v/fisx-prepackager-babel.svg?style=flat)](https://npmjs.org/package/fisx-prepackager-babel)
+
 > A prepackager for fisx to extract the used babel helper api code to a file when using babel-plugin-external-helpers plugin. 
 
 ## How to use
