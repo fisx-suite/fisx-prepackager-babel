@@ -35,9 +35,14 @@ function createFile(filePath, content, options) {
 
 function addFile(ret, file) {
     var subPath = file.subpath;
-
     ret.src[subPath] = file;
-    ret.map.res[file.id] = file;
+
+    var id = file.getId();
+    ret.ids[id] = file;
+    file.map = ret.map.res[id] = {
+        uri: file.getUrl(),
+        type: file.rExt.replace(/^\./, '')
+    };
 
     ret.pkg[subPath] = file;
 }
