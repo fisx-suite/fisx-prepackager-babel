@@ -1,6 +1,6 @@
 {
   "name": "fisx-prepackager-babel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A prepacakger for fisx when using babel-plugin-external-helpers plugin",
   "main": "index.js",
   "keywords": ["fisx","fis3","fis","babel","prepackager"],
